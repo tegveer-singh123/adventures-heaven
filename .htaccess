@@ -1,0 +1,11 @@
+RewriteEngine On
+RewriteBase /
+
+# Allow Next.js static assets to be served
+RewriteRule ^_next/ - [L]
+
+# Redirect all non-static requests to the correct static page
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)/$ /$1.html [L]
+RewriteRule ^(.*)$ /$1.html [L]

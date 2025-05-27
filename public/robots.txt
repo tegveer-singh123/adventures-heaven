@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /*?*
+Disallow: /old-folder/
+
+Sitemap: https://adventuresheaven.com/sitemap.xml
