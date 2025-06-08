@@ -13,12 +13,6 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://adventuresheaven.com/contact</loc>
-        <lastmod>2024-03-30</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
         <loc>https://adventuresheaven.com/ziplining/</loc>
         <lastmod>2024-03-30</lastmod>
         <changefreq>weekly</changefreq>
@@ -26,6 +20,18 @@
     </url>
     <url>
         <loc>https://adventuresheaven.com/hotairballooning/</loc>
+        <lastmod>2024-03-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+        <url>
+        <loc>https://adventuresheaven.com/gallery/</loc>
+        <lastmod>2024-03-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+        <url>
+        <loc>https://adventuresheaven.com/about/</loc>
         <lastmod>2024-03-30</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
